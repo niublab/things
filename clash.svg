@@ -1,0 +1,31 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="catGradient" x1="100" y1="30" x2="100" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#213E8D"/>
+      <stop offset="1" stop-color="#194D74"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Cat Body -->
+  <path d="M152.174 139.752C152.174 162.24 130.641 180 100 180C69.359 180 47.826 162.24 47.826 139.752V59.8344C47.826 40.548 61.2785 27.6009 72.826 20.4728L72.826 20.4728C72.826 20.4728 72.826 20.4728 72.826 20.4728C78.9333 16.5916 87.5768 15.548 100 20.4728C112.423 15.548 121.067 16.5916 127.174 20.4728L127.174 20.4728C138.721 27.6009 152.174 40.548 152.174 59.8344V139.752Z" 
+        fill="url(#catGradient)" stroke="white" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <!-- Left Ear -->
+  <path d="M72.826 20.4728L47.826 59.8344H72.826C72.826 59.8344 72.826 20.4728 72.826 20.4728Z" fill="url(#catGradient)"/>
+  
+  <!-- Right Ear -->
+  <path d="M127.174 20.4728L152.174 59.8344H127.174C127.174 59.8344 127.174 20.4728 127.174 20.4728Z" fill="url(#catGradient)"/>
+
+  <!-- Left Eye -->
+  <circle cx="79" cy="80" r="10" fill="white"/>
+  
+  <!-- Right Eye -->
+  <circle cx="121" cy="80" r="10" fill="white"/>
+  
+  <!-- Mouth -->
+  <path d="M96 118C96 118 98 123 100 123C102 123 104 118 104 118" stroke="white" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Tail -->
+  <path d="M47.826 142.752C47.826 142.752 38.826 130.752 38.826 118.752C38.826 106.752 47.826 98.752 57.826 98.752C67.826 98.752 69.826 108.752 69.826 113.752C69.826 118.752 65.826 123.752 60.826 128.752C55.826 133.752 47.826 142.752 47.826 142.752Z" 
+        stroke="white" stroke-width="5" stroke-linecap="round" fill="url(#catGradient)"/>
+</svg>
